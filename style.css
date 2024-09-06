@@ -1,42 +1,43 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-}
-
-label {
-    font-size: 1.5rem;
-    font-weight: bold;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 input {
-    font-size: 1.5rem;
-    width: 5rem;
-    font-weight: bold;
-    text-align: center;
-    margin: 0 2rem;
-    border: none;
-    outline: none;
+  font-size: 1.5rem;
+  width: 5rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 2rem;
+  border: none;
+  outline: none;
 }
 
-input:hover{
-    border-bottom:2px solid hsl(0, 0%, 0%) ;
-    input-security: none;
+input:hover {
+  border-bottom: 2px solid hsl(0, 0%, 0%);
+  input-security: none;
 }
 
 button {
-    font-size: 1.3rem;
-    border: none;
-    padding: 10px 20px;
-    font-weight: bold;
-    border-radius: 1rem;
-    background-color: hsl(210, 100%, 50%);
-    color:hsl(0, 0%, 100%);
+  font-size: 1.3rem;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 1rem;
+  background-color: hsl(210, 100%, 50%);
+  color: hsl(0, 0%, 100%);
 }
 
 button:hover {
-    background-color: hsl(210, 100%, 60%);
+  background-color: hsl(210, 100%, 60%);
 }
 
 button:active {
-    background-color: hsl(210, 100%, 70%);
+  background-color: hsl(210, 100%, 70%);
+}
+
+#diceTxt {
+  margin-top: 2rem;
 }
